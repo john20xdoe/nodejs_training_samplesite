@@ -3,4 +3,4 @@ function route(pathname) {
 }
 
 //export this function to be used outside this module
-export.route = route;
+exports.route = route;
