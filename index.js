@@ -20,4 +20,4 @@ server.start(router.route,handle);
 
 //continue at nodebeginner page 28 - XXXX
 //continue at nodebeginner page 41 - XXXX
-//continue at nodebeginner page 50
+//continue at nodebeginner page 60 (review first)
