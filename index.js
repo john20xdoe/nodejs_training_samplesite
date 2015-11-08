@@ -1,8 +1,10 @@
 //execute as: node index.js
 
 
+//this file is like the bean configuration file in spring framework??
+
 var server = require("./server");
-var router = require("./route");  ///strings correspond to filenames e.g "route" points to the file route.js
+var router = require("./router");  ///strings correspond to filenames e.g "route" points to the file route.js
 var requestHandlers = require("./requestHandlers.js");
 
 var handle = {}
@@ -17,4 +19,5 @@ handle["/upload"]	= requestHandlers.upload;
 server.start(router.route,handle);
 
 //continue at nodebeginner page 28 - XXXX
-//continue at nodebeginner page 41
+//continue at nodebeginner page 41 - XXXX
+//continue at nodebeginner page 50
